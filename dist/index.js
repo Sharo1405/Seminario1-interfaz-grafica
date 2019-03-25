@@ -13,7 +13,7 @@ var router_1 = __importDefault(require("./router/router"));
 var path = require("path");
 var siguiente = 0;
 app.use(router_1.default);
-app.use(express.static(path.join('/app/compiUnido/webpack_Tutorial/')));
+app.use(express.static(path.join('/app/Seminario1-interfaz-grafica-master/webpack_Tutorial/')));
 /*
 app.get('/', function(req:any, res:any,next:any) {
     res.sendFile('/home/luigitercero/Documentos/Compi2/webpack_tutorial/index2.htm');
